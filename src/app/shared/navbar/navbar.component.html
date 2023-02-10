@@ -1,0 +1,36 @@
+<mat-sidenav-container class="container" autosize>
+    <mat-sidenav class="sidenav" mode="side" opened>
+
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/">
+                <div class="item-list">
+                    <i class="material-icons">home</i>
+                    <span class="list-item">Home</span>
+                </div>
+            </a>
+            <a mat-list-item routerLink="data/reservatorios">
+                <div class="item-list">
+                    <i class="material-icons">opacity</i>
+                    <span class="list-item">Reservatorios</span>
+                </div>               
+            </a>          
+            <a mat-list-item routerLink="data/subsistema">
+                <div class="item-list">
+                    <i class="material-icons">offline_bolt</i>
+                    <span class="list-item">Subsistema</span>
+                </div>
+            </a>     
+        </mat-nav-list>    
+    </mat-sidenav>
+
+    <mat-sidenav-container>
+        <router-outlet></router-outlet>
+    </mat-sidenav-container>
+  
+    <!-- <div class="sidenav-content">
+      <button mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div> -->
+  
+  </mat-sidenav-container>

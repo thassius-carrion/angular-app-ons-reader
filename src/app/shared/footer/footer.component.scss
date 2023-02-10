@@ -1,0 +1,13 @@
+.container {
+    background-color: #3f51b5;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 7%;
+    position: fixed;
+    bottom: 0;
+}
+
+.copyright {
+    color: #fff;
+    font-size: small;
+}
